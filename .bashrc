@@ -37,9 +37,6 @@ alias df='df -h'
 # geeknote -> 'python geeknote.py'
 # alias geeknote='python ~/geeknote/geeknote.py'
 
-# pvm -> ~/pvm/pvm.sh
-. ~/pvm/pvm.sh
-
 export PS1='\t \W $ '
 
 # svm
