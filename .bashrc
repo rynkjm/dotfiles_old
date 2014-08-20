@@ -39,9 +39,6 @@ alias df='df -h'
 
 export PS1='\t \W $ '
 
-# svm
-export SCALA_HOME=~/.svm/current/rt
-export PATH=$SCALA_HOME/bin:$PATH
 
 #########################
 #   Homebrew
