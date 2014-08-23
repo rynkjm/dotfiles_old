@@ -3,12 +3,12 @@ source ~/dotfiles/.vimrc.bundle
 "基本設定
 source ~/dotfiles/.vimrc.basic
 "インデント設定
-source ~/dotfiles/.vimrc.indent
+" source ~/dotfiles/.vimrc.indent
 "表示関連
-source ~/dotfiles/.vimrc.apperance
+" source ~/dotfiles/.vimrc.apperance
 "移動関連
-source ~/dotfiles/.vimrc.moving
+" source ~/dotfiles/.vimrc.moving
 "編集関連
-source ~/dotfiles/.vimrc.editing
+" source ~/dotfiles/.vimrc.editing
 "エンコーディング関連
 source ~/dotfiles/.vimrc.encoding
