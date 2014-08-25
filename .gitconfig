@@ -1,6 +1,12 @@
 [user]
 	name = rynkjm
 	email = rynkjm@gmail.com
+[color]
+	status = auto
+	diff = auto
+	branch = auto
+	interactive = auto
+	grep = auto
 [alias]
 	st = status
 	co = checkout
