@@ -1,0 +1,10 @@
+[user]
+	name = rynkjm
+	email = rynkjm@gmail.com
+[alias]
+	st = status
+	co = checkout
+	bra = branch
+	cmm = commit
+	cancel = rest --soft HEAD^
+	today = log --oneline --since='12 hour ago'
