@@ -8,3 +8,4 @@
 	cmm = commit
 	cancel = rest --soft HEAD^
 	today = log --oneline --since='12 hour ago'
+	mer = merge
