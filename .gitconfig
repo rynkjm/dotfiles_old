@@ -2,6 +2,7 @@
 	name = rynkjm
 	email = rynkjm@gmail.com
 [color]
+	ui = auto
 	status = auto
 	diff = auto
 	branch = auto
