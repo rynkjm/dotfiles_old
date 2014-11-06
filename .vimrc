@@ -12,3 +12,6 @@ source ~/dotfiles/.vimrc.indent
 " source ~/dotfiles/.vimrc.editing
 "エンコーディング関連
 source ~/dotfiles/.vimrc.encoding
+"カラースキーム関係
+source ~/dotfiles/.vimrc.color
+

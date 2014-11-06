@@ -1,4 +1,4 @@
-DOT_FILES = .vimrc .vim .vimrc.apperance .vimrc.basic .vimrc.bundle .vimrc.editing .vimrc.encoding .vimrc.indent .vimrc.moving .bashrc .bash_profile .gitconfig
+DOT_FILES = .vimrc .vim .vimrc.color .vimrc.apperance .vimrc.basic .vimrc.bundle .vimrc.editing .vimrc.encoding .vimrc.indent .vimrc.moving .bashrc .bash_profile .gitconfig
 
 all: vim bash git
 
