@@ -38,7 +38,7 @@ alias df='df -h'
 # alias geeknote='python ~/geeknote/geeknote.py'
 
 export PS1='\t \W $ '
-
+export CLICOLOR=1
 
 #########################
 #   Homebrew
