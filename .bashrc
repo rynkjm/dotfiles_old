@@ -1,3 +1,8 @@
+# 文字コードを指定
+export LANG=ja_JP.UTF-8
+export LESSCHARSET=utf-8
+export JAVA_TOOL_OPTIONS=-Dfile.encoding=UTF-8
+
 # バッファをクリアする
 alias 0='clear'
 
