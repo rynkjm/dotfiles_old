@@ -1,0 +1,15 @@
+""""""""""""""""""""""
+" 移動設定
+""""""""""""""""""""""
+
+nnoremap <C-d> <Left>
+nnoremap <C-h> gj
+nnoremap <C-t> gk
+nnoremap <C-n> <Right>
+
+nnoremap <Down> gj
+nnoremap <Up>   gk
+
+nnoremap gj j
+nnoremap gk k
+
