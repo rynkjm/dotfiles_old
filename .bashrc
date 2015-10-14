@@ -63,3 +63,7 @@ alias bup='brew update'
 alias bupg='brew upgrade'
 alias opbr='open $(brew --prefix)/'
 alias cdbr='pushd $(brew --prefix)/'
+
+# homebrew-caskのインストール場所の変更
+export HOMEBREW_CASK_OPTS="--appdir=/Applications --caskroom=/usr/local/Caskroom" 
+
