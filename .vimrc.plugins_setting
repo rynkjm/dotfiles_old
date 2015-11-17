@@ -1,0 +1,13 @@
+"-------------------------------------------------------------------------------
+" プラグインごとの設定 Plugins
+"-------------------------------------------------------------------------------
+
+"------------------------------------
+" vim-easymotion
+"------------------------------------
+" ホームポジションに近いキーを使う
+let g:EasyMotion_keys='hjklasdfgyuiopqwertnmzxcvbHJKLASDFGYUIOPQWERTNMZXCVB'
+" Spaceを２回にマッピング
+let g:EasyMotion_leader_key= '<Space><Space>'
+" 1 ストローク選択を優先する
+let g:EasyMotion_grouping=1

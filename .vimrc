@@ -13,8 +13,9 @@ source ~/dotfiles/.vimrc.bundle
 "エンコーディング関連
 "source ~/dotfiles/.vimrc.encoding
 "カラースキーム関係
-"source ~/dotfiles/.vimrc.color
-
+source ~/dotfiles/.vimrc.color
+" プラグイン毎の設定
+source ~/dotfiles/.vimrc.plugins_setting
 
 
 """"""""""""""""""
@@ -24,3 +25,4 @@ source ~/dotfiles/.vimrc.bundle
 source ~/dotfiles/.my_vimrc/.vimrc.basic
 " 移動関係
 source ~/dotfiles/.my_vimrc/.vimrc.moving  
+
