@@ -28,6 +28,8 @@ NeoBundle 'Shougo/vimfiler'
 NeoBundle 'derekwyatt/vim-scala'
 NeoBundle 'Lokaltog/vim-easymotion'
 NeoBundle 'tomasr/molokai'
+NeoBundle 'aharisu/vim_goshrepl'
+NeoBundle 'aharisu/vim-gdev'
 
  call neobundle#end()
 
