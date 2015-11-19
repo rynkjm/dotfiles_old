@@ -1,2 +1,3 @@
 .vim/
 .DS_Store
+.brew_api_token

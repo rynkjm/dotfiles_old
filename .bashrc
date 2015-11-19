@@ -67,3 +67,8 @@ alias cdbr='pushd $(brew --prefix)/'
 # homebrew-caskのインストール場所の変更
 export HOMEBREW_CASK_OPTS="--appdir=/Applications --caskroom=/usr/local/Caskroom" 
 
+# brew api token
+if [ -f ~/.brew_api_token ];then
+  source ~/.brew_api_token
+fi
+
