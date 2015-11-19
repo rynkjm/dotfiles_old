@@ -1,6 +1,7 @@
 tap 'caskroom/cask'
 tap 'homebrew/bundle'
 tap 'splhack/splhack'
+tap 'stephenway/monokaiterminal', 'https://github.com/stephenway/monokai.terminal.git'
 tap 'universal-ctags/universal-ctags'
 brew 'libyaml'
 brew 'openssl'
