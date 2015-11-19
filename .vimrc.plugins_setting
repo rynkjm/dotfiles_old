@@ -33,5 +33,3 @@ imap <C-C> <Plug>(gosh_info_close)
 "カーソル位置のシンボルが定義されている場所にジャンプ
 nmap <F12> <Plug>(gosh_goto_define)
 nmap <F11> <Plug>(gosh_goto_define_split)
-
-let g:neocomplete#keyword_patterns['gosh-repl'] = "[[:alpha:]+*/@$_=.!?-][[:alnum:]+*/@$_:=.!?-]*"
