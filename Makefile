@@ -1,4 +1,4 @@
-DOT_FILES = .vimrc .vim .vimrc.color .vimrc.apperance .vimrc.basic .vimrc.bundle .vimrc.editing .vimrc.encoding .vimrc.indent .vimrc.moving .vimrc.plugins_setting .bashrc .bash_profile .gitconfig Brewfile .gvimrc .brew_api_token
+DOT_FILES = .vimrc .vim .vimrc.color .vimrc.apperance .vimrc.basic .vimrc.bundle .vimrc.editing .vimrc.encoding .vimrc.indent .vimrc.moving .vimrc.plugins_setting .bashrc .bash_profile .gitconfig Brewfile .gvimrc .brew_api_token .vimrc.cursor
 
 all: vim bash git brewfile gvim brew
 

@@ -16,7 +16,8 @@ source ~/dotfiles/.vimrc.bundle
 source ~/dotfiles/.vimrc.color
 " プラグイン毎の設定
 source ~/dotfiles/.vimrc.plugins_setting
-
+" カーソル移動を禁止する
+source ~/dotfiles/.vimrc.cursor
 
 """"""""""""""""""
 " my .vimrc
@@ -25,4 +26,3 @@ source ~/dotfiles/.vimrc.plugins_setting
 source ~/dotfiles/.my_vimrc/.vimrc.basic
 " 移動関係
 source ~/dotfiles/.my_vimrc/.vimrc.moving  
-
