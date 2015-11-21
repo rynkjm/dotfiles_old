@@ -41,3 +41,5 @@ set helpfile=$VIMRUNTIME/doc/help.txt
 
 " ファイルタイプ判定をon
 filetype plugin on
+
+set guifont=Ricty\ Regular\ for\ Powerline:h16

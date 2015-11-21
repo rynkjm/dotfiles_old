@@ -1,5 +1,6 @@
 tap 'caskroom/cask'
 tap 'homebrew/bundle'
+tap 'sanemat/font'
 tap 'splhack/splhack'
 tap 'stephenway/monokaiterminal', 'https://github.com/stephenway/monokai.terminal.git'
 tap 'universal-ctags/universal-ctags'
@@ -47,6 +48,7 @@ brew 'tree'
 brew 'typesafe-activator'
 brew 'wget'
 brew 'caskroom/cask/brew-cask'
+brew 'sanemat/font/ricty', args: ['powerline']
 brew 'splhack/splhack/cmigemo-mk', args: ['HEAD']
 brew 'universal-ctags/universal-ctags/universal-ctags', args: ['HEAD']
 brew 'splhack/splhack/macvim-kaoriya', args: ['HEAD']
