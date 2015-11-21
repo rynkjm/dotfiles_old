@@ -7,7 +7,7 @@ source ~/dotfiles/.vimrc.basic
 "表示関連
 " source ~/dotfiles/.vimrc.apperance
 "移動関連
-" source ~/dotfiles/.vimrc.moving
+source ~/dotfiles/.vimrc.moving
 "編集関連
 " source ~/dotfiles/.vimrc.editing
 "エンコーディング関連
@@ -18,11 +18,3 @@ source ~/dotfiles/.vimrc.color
 source ~/dotfiles/.vimrc.plugins_setting
 " カーソル移動を禁止する
 source ~/dotfiles/.vimrc.cursor
-
-""""""""""""""""""
-" my .vimrc
-""""""""""""""""""
-" 基本設定
-source ~/dotfiles/.my_vimrc/.vimrc.basic
-" 移動関係
-source ~/dotfiles/.my_vimrc/.vimrc.moving  
