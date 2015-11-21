@@ -33,6 +33,8 @@ NeoBundle 'aharisu/vim-gdev'
 NeoBundle 'mattn/gist-vim', {'depends': 'mattn/webapi-vim'}
 NeoBundle 'itchyny/lightline.vim'
 NeoBundle 'Shougo/junkfile.vim'
+NeoBundle 'tpope/vim-fugitive'
+NeoBundle 'airblade/vim-gitgutter'
 
  call neobundle#end()
 
