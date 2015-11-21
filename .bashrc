@@ -22,7 +22,7 @@ function macvim () {
   fi
 }
 
-export EDITOR=macvim
+export EDITOR=macvim()
 
 # vi -> MacVim-kaoriya
 alias vi=macvim
@@ -48,9 +48,6 @@ alias mv='mv -iv'
 
 # alias df='df -h'
 alias df='df -h'
-
-# geeknote -> 'python geeknote.py'
-# alias geeknote='python ~/geeknote/geeknote.py'
 
 export PS1='\t \W $ '
 export CLICOLOR=1
