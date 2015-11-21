@@ -199,3 +199,23 @@ endfunction
 " vim-junkfile
 "------------------------------------
 let g:junkfile#directory='~/Dropbox/vim_junkfile/'
+
+
+"------------------------------------
+" previm
+"------------------------------------
+augroup PrevimSettings
+    autocmd!
+    autocmd BufNewFile,BufRead *.{md,mdwn,mkd,mkdn,mark*} set filetype=markdown
+augroup END
+
+"------------------------------------
+" vim-markdown
+"------------------------------------
+let g:vim_markdown_folding_disabled=1
+
+"------------------------------------
+" vim-indent-guides
+"------------------------------------
+" vimを立ち上げたときに、自動的にvim-indent-guidesをオンにする
+let g:indent_guides_enable_on_vim_startup = 1
