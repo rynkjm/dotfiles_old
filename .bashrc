@@ -12,15 +12,25 @@ alias up='cd ..'
 # コマンドラインよりquicklookを使う
 alias ql='qlmanage -p "$@" >& /dev/null'
 
-# EDITORはMacVim-koriya
-export EDITOR=/Applications/MacVim.app/Contents/MacOS/Vim
+function macvim () {
+  local mvim="/usr/local/Cellar/macvim-kaoriya/HEAD/MacVim.app/Contents/MacOS/mvim"
+
+  if [[ ${#@} = 0 ]]; then
+    $mvim
+  else
+    $mvim --remote-tab-silent $@
+  fi
+}
+
+export EDITOR=macvim
+
 # vi -> MacVim-kaoriya
-alias vi='env LANG=ja_JP.UTF-8 /Applications/MacVim.app/Contents/MacOS/Vim "$@"'
+alias vi=macvim
 # vim -> MacVim-kaoriya
-alias vim='env LANG=ja_JP.UTF-8 /Applications/MacVim.app/Contents/MacOS/Vim "$@"'
+alias vim=macvim
 
 # .vimrcを読み込まずにvimを起動する
-alias _vim='env LANG=ja_JP.UTF-8 /Applications/MacVim.app/Contents/MacOS/Vim -u NONE -N "$@"'
+#alias _vim='env LANG=ja_JP.UTF-8 '$EDITOR'-u NONE -N "$@"'
 
 # ll -> 'ls -l'
 alias ll='ls -lG'
