@@ -35,6 +35,8 @@ NeoBundle 'itchyny/lightline.vim'
 NeoBundle 'Shougo/junkfile.vim'
 NeoBundle 'tpope/vim-fugitive'
 NeoBundle 'airblade/vim-gitgutter'
+NeoBundle 'tpope/vim-surround'
+NeoBundle 'osyo-manga/vim-over'
 
  call neobundle#end()
 
