@@ -22,8 +22,7 @@ function macvim () {
   fi
 }
 
-export EDITOR=macvim()
-
+export EDITOR="/usr/local/Cellar/macvim-kaoriya/HEAD/MacVim.app/Contents/MacOS/Vim"
 # vi -> MacVim-kaoriya
 alias vi=macvim
 # vim -> MacVim-kaoriya
