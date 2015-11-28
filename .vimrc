@@ -16,5 +16,3 @@ source ~/dotfiles/.vimrc.encoding
 source ~/dotfiles/.vimrc.color
 " プラグイン毎の設定
 source ~/dotfiles/.vimrc.plugins_setting
-" カーソル移動を禁止する
-"source ~/dotfiles/.vimrc.cursor
