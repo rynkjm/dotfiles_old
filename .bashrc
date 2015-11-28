@@ -31,6 +31,15 @@ alias vim=macvim
 # .vimrcを読み込まずにvimを起動する
 #alias _vim='env LANG=ja_JP.UTF-8 '$EDITOR'-u NONE -N "$@"'
 
+function _macvim () {
+  local mvim="/usr/local/Cellar/macvim-kaoriya/HEAD/MacVim.app/Contents/MacOS/mvim"
+
+  if [[ ${#@} = 0 ]]; then
+    $mvim -u NONE -N
+  else
+    $mvim --remote-tab-silent -u NONE -N $@
+  fi
+}
 # ll -> 'ls -l'
 alias ll='ls -lG'
 
