@@ -1,3 +1,3 @@
 #!/usr/bin/sh
 
-make ~/dotfiles/.vim/bundle/vimproc.vim/
+echo " ~/dotfiles/.vim/bundle/vimproc.vim/のフォルダまで移動しmakeコマンドを実行する"
