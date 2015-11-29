@@ -53,7 +53,6 @@ brew 'sanemat/font/ricty', args: ['powerline']
 brew 'splhack/splhack/cmigemo-mk', args: ['HEAD']
 brew 'universal-ctags/universal-ctags/universal-ctags', args: ['HEAD']
 brew 'splhack/splhack/macvim-kaoriya', args: ['HEAD']
-cask 'adobe-reader'
 cask 'alfred'
 cask 'appcleaner'
 cask 'cheatsheet'
@@ -74,6 +73,7 @@ cask 'monolingual'
 cask 'namebench'
 cask 'onyx'
 cask 'silverlight'
+cask 'skim'
 cask 'skype'
 cask 'techstoreclub-simple-comic'
 cask 'vagrant'
