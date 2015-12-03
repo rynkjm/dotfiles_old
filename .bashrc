@@ -87,3 +87,5 @@ if [ -f ~/.brew_api_token ];then
   source ~/.brew_api_token
 fi
 
+" Caskで入れたアプリをアップデートするワンライン
+alias cask-update='for c in `brew cask list`; do ! brew cask info $c | grep -qF "Not installed" || brew cask install $c; done'
