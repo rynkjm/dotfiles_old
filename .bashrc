@@ -89,3 +89,6 @@ fi
 
 # Caskで入れたアプリをアップデートするワンライン
 alias casku='for c in `brew cask list`; do ! brew cask info $c | grep -qF "Not installed" || brew cask install $c; done'
+
+# brew bundle --force dumpするワンライン
+alias bdump='brew bundle --force dump'
