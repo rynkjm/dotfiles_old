@@ -70,7 +70,7 @@ export HOMEBREW_CACHE=~/Library/Caches/Homebrew
 alias b='brew'
 alias bs='brew -S'
 alias bi='brew info'
-alias bl='brew list'
+alias brew-list='brew list --versions'
 alias bh='brew home'
 alias bopt='brew options'
 alias bout='brew outdated'
@@ -88,7 +88,13 @@ if [ -f ~/.brew_api_token ];then
 fi
 
 # Caskで入れたアプリをアップデートするワンライン
-alias casku='for c in `brew cask list`; do ! brew cask info $c | grep -qF "Not installed" || brew cask install $c; done'
+alias cask-update='for c in `brew cask list`; do ! brew cask info $c | grep -qF "Not installed" || brew cask install $c; done'
 
 # brew bundle --force dumpするワンライン
-alias bdump='brew bundle --force dump'
+alias brew-bundle-dump='brew bundle --force dump'
+
+# 古いバージョンを削除するワンライン
+alias cask-clean='for c in /usr/local/Caskroom/*; do vl=(`ls -t $c`) && for v in "${vl[@]:1}"; do /bin/rm -rf "$c/$v"; done; done'
+
+
+# alias brew-cask-list='brew cask list | xargs -I % bash -c "echo -n %' '; ls -C /opt/homebrew-cask/Caskroom/%" | awk '{printf("%-18s",$1);$1="";print}''
