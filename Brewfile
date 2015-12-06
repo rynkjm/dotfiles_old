@@ -55,6 +55,7 @@ brew 'universal-ctags/universal-ctags/universal-ctags', args: ['HEAD']
 brew 'splhack/splhack/macvim-kaoriya', args: ['HEAD']
 cask 'alfred'
 cask 'appcleaner'
+cask 'avira-antivirus'
 cask 'cheatsheet'
 cask 'clipmenu'
 cask 'dash'
