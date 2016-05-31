@@ -44,6 +44,7 @@ NeoBundle 'kannokanno/previm'
 NeoBundle 'tyru/open-browser.vim'
 NeoBundle 'nathanaelkane/vim-indent-guides'
 NeoBundle 'losingkeys/vim-niji'
+NeoBundle 'vim-scripts/rargs.vim'
 
  call neobundle#end()
 
