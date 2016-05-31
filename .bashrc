@@ -98,3 +98,11 @@ alias cask-clean='for c in /usr/local/Caskroom/*; do vl=(`ls -t $c`) && for v in
 
 
 # alias brew-cask-list='brew cask list | xargs -I % bash -c "echo -n %' '; ls -C /opt/homebrew-cask/Caskroom/%" | awk '{printf("%-18s",$1);$1="";print}''
+
+
+# Play Home
+
+export PLAY_HOME=~/activator-1.3.10
+alias play=$PLAY_HOME/bin/activator
+
+export PATH=$PATH
