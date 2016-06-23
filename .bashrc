@@ -105,4 +105,7 @@ alias cask-clean='for c in /usr/local/Caskroom/*; do vl=(`ls -t $c`) && for v in
 export PLAY_HOME=~/activator-1.3.10
 alias play=$PLAY_HOME/bin/activator
 
+# NeoVim
+export XDG_CONFIG_HOME=$HOME/.config
+
 export PATH=$PATH
